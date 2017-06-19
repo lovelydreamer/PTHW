@@ -1,0 +1,56 @@
+
+# exercise 0 : setup - install atom, terminal, python @cmd line, make dir change dir, list files
+
+# exercise 1 : first program: print statements, EOL Error, what does the octothorpe do?
+
+# exercise 2 : comments and pound characters
+
+# exercise 3 : Numbers and Math: print strings and math together <3,
+#  tell me about modulous and an example of how you'd use it.
+
+# exercise 4 : what does a variable do? why would you use it?
+
+# exercise 5 : what will this do?
+
+  # a
+  print "His teeth are usually %s depending on the coffee." % my_teeth
+
+  # b
+  my_teeth = "white"
+  print "His teeth are usually %s depending on the coffee." % my_teeth
+
+  # c
+  my_teeth = "white"
+  after_coffee_teeth = "brown"
+  print "His teeth are usually %s depending on the coffee." % (my_teeth, after_coffee_teeth)
+
+  # d
+  my_teeth = "white"
+  after_coffee_teeth = "brown"
+  print "His teeth are usually %s or %s depending on the coffee maybe %s." % (my_teeth, after_coffee_teeth)
+
+# exercise 6 : look at each other's comments
+
+# exercise 7 : did your program run?
+
+# EXERCISE 8 : how is the formatter working? What do you think each line will do?
+
+    formatter = "%r %r %r %r"
+
+    print formatter % (1, 2, 3, 4)
+    print formatter % ("one", "two", "three", "four")
+    print formatter % (True, False, False, True)
+    print formatter % (formatter, formatter, formatter, formatter)
+    print formatter % (
+        "I had this thing.",
+        "That you could type up right.",
+        "But it didn't sing.",
+        "So I said goodnight."
+    )
+
+
+  print formatter % ("I had this thing.", "That you could type up right.","But it didn't sing.","So I said goodnight.")
+
+# exercise 9 : What does \n do?
+
+
